@@ -3,42 +3,8 @@ Data processing was executed using Old Dominion Univerisity's Open Demand applic
 
 Item Checkouts by Title dataset from The Seattle Public Library (Checkouts by Title) contains 38,470,908 records, 11 columns in data set – UsageClass, CheckoutType, MaterialType, CheckoutYear, CheckoutMonth, Checkouts, Title, Creator, Subjects, Publisher, PublicationYear. From this dataset, Creator, and Subjects were ommitted for further consideration. 
 
-
-The library inventory data has approximately 14.2% of Author data missing. I removed entries with missing Author data as it is not reasonable to attempt to determine that value based on other neighboring entries as if it is with numerical data. 
-
-Accdrom	Media	CD-ROM	Adult/YoungAdult
-Armfm			
-Acvhs			
-Armus			
-Acdvd			
-Arcd			
-Jrbk			
-Armap			
-Pkbknh			
-Arec			
-Arpam			
-Arper			
-Acmap			
-Bcbk			
-Acmus			
-Jccd			
-Armfc			
-Accd	Media	CD	Adult/YoungAdult
-Arbk	Book	Book	Reference Adult/YoungAdult
-Jcbk	Book 	Book 	Juv
-Acbk	Book	Book	Adult/YoungAdult
-			
-
-
 The Library Collection Inventory (Collection Inventory) dataset contains 67, 716, 791 records, 12 columns in data set – BibNum, Title, Author, ISBN, PublicationYear, Publisher, Subjects, ItemType, ItemCollection, FloatingItem, ItemLocation, ReportDate, ItemCount. From the dataset, BibNum, ISBN, ItemLocation, and FloatingItem were ommited for analysis. 
 
+Similar data count evaluations were made for other columns including Publisher from Collection Inventory, and Checkout Year from Checkouts by Title dataset. Performing this evaluation on Checkouts by Title for Checkout Year data reveals something that catches attention is a significant drop in the year 2020 time frame. Figure 6, shows the tally of checkouts for 2020 at an all time low since data recording has begun at 1,721,376 compared to 2005, first available time frame from the dataset at 1,331,652. For this trend change, no need to look further than the COVID lockdown restriction pleased around the country in early 2020. Since the time of data recording, there is a steady increase in Checkout tally over the years. This could be attributed to increasing availability of Checkout inventory items that are available both physically in book, CD, & DVD formats, as well as digital items including ebooks, audiobooks, & other digital format Item Types presented in Library Collection Inventory dataset.
 
-
-Visualization 
-I used a combination of historgram, and box plot charts to analyze trends overtime. The inventory data shows changing trends in Author, Publishers, and Item Type quantity available. 
-
-
-Inventory change in Item Types, from a total of 20 as defined by XX
-
-Increasing in 
-Checkout Items during 2013, and 2020 show significant spikes showing a sudden trend change. Two periods were analyzed for trends. First, during 2013 period a sudden increase in checkouts of Harry Potter 
+Meaningful relationships are drawn the Inventory, and Checkout datasets. Trend in increasing checkout, is support by increasing library collection inventory. Furthermore, Checkout data in the top most common material types, is support by the quantity of item type collection inventory. Checkout data is also consistent in popular items and time frame. For example, decreasing trend during COVID shutdown. Further expansion of the project will investigate trends on a smaller time frame. Implement more advanced models to evaluate relationships between inventory, and checkout trends
