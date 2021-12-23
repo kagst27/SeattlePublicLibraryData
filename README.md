@@ -1,10 +1,10 @@
 If an error message is displayed when opening the IPYNB files, please follow instructions below to access the content :
 
 For Library Collection Inventory analysis: 
-copy the follwowing link (github file link): 
+copy the follwowing link (github file link): https://github.com/kagst27/SeattlePublicLibraryData/blob/main/Library_Inventory_Data_Analysis_SI.ipynb
 
 For Library Item Checkouts analysis: 
-copy the follwowing link (github file link): 
+copy the follwowing link (github file link): https://github.com/kagst27/SeattlePublicLibraryData/blob/main/CheckoutsbyTitleFI.ipynb
 
 and
 paste to - Jupyter Extension: https://nbviewer.org/
