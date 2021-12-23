@@ -1,3 +1,18 @@
+If an error message is displayed when opening the IPYNB files, please follow instructions below to access the content :
+
+For Library Collection Inventory analysis: 
+copy the follwowing link (github file link): 
+
+For Library Item Checkouts analysis: 
+copy the follwowing link (github file link): 
+
+and
+paste to - Jupyter Extension: https://nbviewer.org/
+
+
+
+
+
 Data pre-processing: 
 Data processing was executed using Old Dominion Univerisity's Open Demand application, to launch a Jupyter server using Python on the wahab cluster. Both datasets were retrieved from Seattle Library Open Data Program, and saved on the cluster that allows multiple cores for data storage. 
 
